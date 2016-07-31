@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap.min.css"/>
+  </head>
+  <body>
+    <!-- CanJS application root -->
+   <script src="libs/jquery.js"></script>
+    <script src="libs/can.custom.js"></script>
+    <script src="libs/can.fixture.js"></script>
+    <script src="libs/bootstrap.min.js"></script>
+    <header>
+      <div class="page-header">YOUR SHOPPING BAG</div>
+      <div class="line-separator"></div>
+      <div class="border-bottom-subtotal-absolute"></div>
+      <div class="border-bottom-estimated-absolute"></div>
+    </header>
+     <div id="items-container" class="item-container"></div>
+     <div id="items-edit" class="edit-disable">
+        <div class="close-btn cursor-dispaly">&times;</div>
+        <div id="edit-view"></div>
+     </div>
+     <div id="mask" class="mask-disable"></div>
+    <script data-main="app.js" src="libs/require.js"></script>
+    <footer>
+      <div><img src="../images/lock.jpg">Secure checkout. Shopping is safe & secure</div>
+    </footer>
+  </body>
+</html>

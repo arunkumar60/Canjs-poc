@@ -1,0 +1,290 @@
+header{
+	width: calc(100% - 30px);
+	margin: 0 auto;
+}
+
+header .page-header{
+	font-size: 5em;
+	font-weight: lighter;
+	margin: 30px 0px 90px 0px;
+	display: inline-block;
+	padding: 0px;
+	border: 0px;
+}
+.item-container{
+	padding: 0 15px 0 15px;
+}
+header .line-separator{
+	border: 1px solid lightgrey;
+	
+}
+.header-items{
+	color: grey;
+	padding: 17px 0 17px 0;
+	border-bottom: 8px solid lightgrey;
+}
+.item-details{
+	margin-top: 1%;
+}
+.item-details .text-uppercase{
+	font-weight: bold;
+}
+.color-lightgrey{
+	color:lightgrey;
+}
+.edit-items{
+	padding-top: 12%;
+}
+.padding-items{
+	padding-bottom: 4%;
+	padding-top: 2%;
+	border-bottom: 1px solid lightgrey;
+}
+.inputText{
+	text-align: center;
+	//width: 15%;
+	border: 1px solid lightgrey;
+	width: 49px;
+	height: 40px;
+	line-height: 36px;
+}
+.label-view{
+	text-align: center;
+	width: 15%;
+}
+.label-subTotal{
+	font-size: 33px;
+}
+.label-view.price-quote{
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 27px;
+}
+ .product-section .padding-items:last-child , .line {
+	border-bottom: 10px solid lightgrey;
+}
+.transaction-section{
+	padding-top: 7%;
+}
+.inputTextCp{
+	width: 92%;
+}
+.label-queries{
+	padding-bottom: 14%;
+}
+.label-subTotal{
+	padding-top: 38%;
+}
+header{
+	width: calc(100% - 30px);
+	margin: 0 auto;
+}
+
+header .page-header{
+	font-size: 5em;
+	font-weight: lighter;
+	margin: 30px 0px 90px 0px;
+	display: inline-block;
+	padding: 0px;
+	border: 0px;
+}
+.item-container{
+	padding: 0 15px 0 15px;
+}
+header .line-separator{
+	border: 1px solid lightgrey;
+	
+}
+.header-items{
+	color: grey;
+	padding: 17px 0 17px 0;
+	border-bottom: 8px solid lightgrey;
+}
+.item-details{
+	margin-top: 1%;
+}
+.item-details .text-uppercase{
+	font-weight: bold;
+}
+.color-lightgrey{
+	color:lightgrey;
+}
+.edit-items{
+	padding-top: 12%;
+}
+.padding-items{
+	padding-bottom: 4%;
+	padding-top: 2%;
+	border-bottom: 1px solid lightgrey;
+}
+.inputText{
+	text-align: center;
+	//width: 15%;
+	border: 1px solid lightgrey;
+	width: 49px;
+	height: 40px;
+	line-height: 36px;
+}
+.label-view{
+	text-align: center;
+	width: 15%;
+}
+.label-subTotal{
+	font-size: 33px;
+}
+.label-view.price-quote{
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 27px;
+}
+ .product-section .padding-items:last-child , .line {
+	border-bottom: 10px solid lightgrey;
+}
+.transaction-section{
+	padding-top: 7%;
+}
+.inputTextCp{
+	width: 92%;
+}
+.label-queries{
+	padding-bottom: 14%;
+}
+.label-queries-amt{
+	padding-bottom: 9%;
+}
+.label-subTotal{
+	padding-top: 38%;
+}
+.free-div{
+	padding-top: 32%;
+}
+.strike-disable{
+	text-decoration: line-through;
+	color: #D3D3D3;
+}
+.shopping-feel{
+	float: right;
+	margin-right: 10%;
+	margin-top:20px;
+}
+.continue-shopping{
+    padding-left: 50px;
+}
+.border-bottom-subtotal-absolute{
+	border: 4px solid lightgrey;
+	position: absolute;
+	left: 35%;
+	bottom: -770px;
+	width: 55%;
+}
+.border-bottom-estimated-absolute{
+	border: 4px solid lightgrey;
+	position: absolute;
+	left: 35%;
+	bottom: -1060px;
+	width: 56%;
+}
+footer{
+	margin-bottom: 100px;
+}
+footer div{
+	float:right;
+	margin-top: 20px;
+	margin-right: 12%;
+}
+
+.edit-disable,.mask-disable{
+	display: none;
+}
+.edit-enable{
+	position:fixed;
+    top: 32%;
+    left: 35%;
+    width:60em;
+    height:35em;
+    margin-top: -9em;
+    margin-left: -15em;
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 10;
+}
+.mask-enable{
+	display: block;
+	position: absolute;
+	width: 100%;
+	z-index: 5;
+	background-color: grey;
+	left: 0;
+	top: 0;
+	opacity: 0.4;
+}
+.close-btn{
+	position: absolute;
+    left: 95%;
+    font-size: 40px;
+    color: lightgrey;
+}
+.cursor-dispaly{
+	cursor: pointer;
+}
+.edit-img{
+	float: right;
+	position:relative;
+	right:32%;
+	top:130px;
+}
+.item-detail-edit{
+	float: left;
+	position:relative;
+	left:12%;
+	top:100px;
+}
+.center-align{
+	text-align: center;
+    font-size: 42px;
+    color: #333;
+}
+.fname-label{
+	color: #000000;
+	text-align: center;
+	padding-top: 30px;
+}
+.box{
+	display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin: 10px;
+}
+.box-modal{
+	padding-left: 40px;
+}
+.dd-size{
+	display: inline-block;
+	padding-left: 40px;
+}
+.dd-qty{
+	display: inline-block;
+}
+.edit-btn{
+	background-color: #286090;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 145px;
+}
+.edit-btn-div{
+	padding-left: 40px;
+}
+.offer{
+	padding-top: 9%;
+}

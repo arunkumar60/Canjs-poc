@@ -1,0 +1,38 @@
+{{#productDetailsToShow}}
+	<div class="item-detail-edit">
+		<div class="color-lightgrey text-uppercase">{{name}}</div>
+		<div class="center-align"><sup>{{currency}}</sup>{{price}}</div>
+		<div class="color-lightgrey text-uppercase fname-label">{{fname}}</div>
+		<div class="box-modal">
+			{{#colorToShow}}
+				<div style="background-color:{{color}};" class="box"></div>
+			{{/colorToShow}}
+		</div>
+		<div class="dropdown dd-size">
+		    <button class="btn btn-default dropdown-toggle" type="button" id="sizeSel" data-toggle="dropdown">Size    
+		    <span class="caret"></span></button>
+		    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+		    {{#sizeToShow}}
+		    	<li role="presentation"><a class="size-list" role="menuitem" tabindex="-1" href="#">{{size}}</a></li>
+		    {{/sizeToShow}}
+		    </ul>
+		</div>
+		<div class="dropdown dd-qty">
+		    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">QTY:{{qty}}
+		    <span class="caret"></span></button>
+		    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+		    	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">{{qty}}</a></li>
+		    </ul>
+		</div>
+		<div class="edit-btn-div">
+			<button type="button" class="edit-btn" data-pid="{{id}}">EDIT</button>
+		</div>
+		<div class="continue-shopping">
+			<a href="#"><u>See product Details</a></u>
+		</div>
+		
+	</div>
+	<div class="edit-img">
+		<img src="../images/{{id}}.jpg">
+	</div>
+{{/productDetailsToShow}}

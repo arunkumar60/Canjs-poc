@@ -1,0 +1,77 @@
+<div class="container-fluid">
+	<div class="product-section">
+		<div class="row header-items">
+			<div class="col-md-6 col-sm-6 col-xs-6">{{items}} ITEMS</div>
+			<div class="col-md-2 col-sm-2 col-xs-2">SIZE</div>
+			<div class="col-md-2 col-sm-2 col-xs-2">QTY</div>
+			<div class="col-md-2 col-sm-2 col-xs-2">PRICE</div>
+		</div>
+
+		
+			{{#productDetails}}
+				<div class="row padding-items">
+					<div class="col-md-3 col-sm-3 col-xs-3"><img src="../images/{{id}}.jpg"></div>
+					<div class="item-details">
+					<div class="col-md-3 col-sm-3 col-xs-3">
+						<div class="text-uppercase">{{name}}</div>
+						<div class="color-lightgrey">Style #: <span class="text-uppercase">{{style}}</span></div>
+						<div class="color-lightgrey">Colour : <span class="text-uppercase">{{color}}</span></div>
+						<div class="edit-items color-lightgrey">
+							<span class="bar-align edit cursor-dispaly" data-name="{{id}}">Edit</span>
+							<span class="bar-align">|<span>
+							<span>&times; Remove</span>
+							<span class="bar-align">|<span>
+							<span>Save For Later</span>
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-2 col-xs-2"><div class="label-view text-uppercase" id="{{id}}">{{size}}</div>
+					</div>
+					<div class="col-md-2 col-sm-2 col-xs-2"><div class="inputText">{{qty}}</div></div>
+					
+					<div class="col-md-2 col-sm-2 col-xs-2">
+						{{#if originalPriceToShow}}
+						<div class="label-view strike-disable"><span><sup>{{currency}}</sup>{{o_price}}</span></div>
+						{{/if}}
+						<div class="label-view price-quote"><span><sup>{{currency}}</sup>{{price}}</span></div>
+					</div>
+					</div>
+				</div>
+			{{/productDetails}}
+	</div>
+
+	<div class="transaction-section">
+			<div class="row">
+				<div class="col-md-3 col-sm-3 col-xs-3">
+					<div class="label-queries">Need help or have questions?</div>
+					<div class="label-queries color-lightgrey">Call Customer Service at 1-800-555-5555</div>
+					<div class="label-queries color-lightgrey"><u>Chat with one of our stttylists</u></div>
+					<div class="label-queries color-lightgrey"><u>See return & exchange policy</u></div>
+				</div>
+				<div>
+				<div class="col-md-1 col-sm-1 col-xs-1"></div>
+				<div class="col-md-3 col-sm-3 col-xs-3">
+					<div class="label-queries color-lightgrey">ENTER PROMOTION CODE OR GIFT CARD</div>
+					<div class="label-queries">SUBTOTAL</div>
+					<div class="label-queries">PROMOTION CODE JF10 APPLIED</div>
+					<div>ESTIMATED SHIPPING<sup>*</sup></div>
+					<div class="label-queries color-lightgrey">You qualify for free shipping because yuor order is over $50<sup>*</sup></div>
+					<div>ESTIMATED TOTAL</div>
+					<div class="color-lightgrey">Tax will be applied during checkout</div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-3"><input type="text" class="inputTextCp"></div>
+				<div class="col-md-2 col-sm-2 col-xs-2">
+					<div class="label-queries-amt"><button type="button" class="btn btn-default">APPLY</button></div>
+					<div class="label-view label-queries-amt price-quote"><span><sup>{{currency}}</sup>{{totalPrice}}</span></div>
+					<div class="label-view label-queries-amt price-quote offer"><span><sup>{{currency}}</sup>-7.00</span></div>
+					<div class="label-view free-div">Free</div>
+					<div class="label-view label-subTotal"><span><sup>{{currency}}</sup>{{estimatedTotal}}</span></div>
+				</div>
+			</div>
+	</div>
+	<div class="shopping-feel">
+		<span class="continue-shopping"><a href="#"><u>CONTINUE SHOPPING</a></u></span>
+		<span><button type="button" class="btn btn-primary">CHECKOUT</button></span>
+	</div>
+
+</div>
+
